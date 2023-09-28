@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+.logo{
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.container{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.image_div{
+    height: 60vh;
+    width: 40vw;
+    padding: 10px;
+    
+}
+ .img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.track_box{
+    border: 2px solid blue;
+    height: 20vh;
+    width: 20vw;
+    margin: 20px;
+    color: #000000;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+ .button{
+    padding: 10px;
+    height: 20%;
+    width: 20%;
+    cursor: pointer;
+}
+.footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: #000000;
+    color: aliceblue;
+}
